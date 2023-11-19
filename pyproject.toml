@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "funcinputs"
-version = "1.0.0"
+version = "1.0.1"
 description = "inputs for functions"
 readme = "README.rst"
 authors = [
@@ -25,4 +25,5 @@ requires-python = ">=3.11"
 file = "LICENSE.txt"
 
 [project.urls]
-source = "https://github.com/johannes-programming/funcinputs"
+Source = "https://github.com/johannes-programming/funcinputs"
+Download = "https://pypi.org/project/funcinputs/#files"

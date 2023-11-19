@@ -37,6 +37,12 @@ License
 
 This project is licensed under the MIT License.
 
+Links
+-----
+
+* `Download <https://pypi.org/project/funcinputs/#files>`_
+* `Source <https://github.com/johannes-programming/funcinputs>`_
+
 Credits
 -------
 
