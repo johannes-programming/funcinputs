@@ -32,6 +32,45 @@ Once funcinputs is installed, you can use it as follows:
     x.append(19)
     print(x) # FuncInput(args=[9, 'foo', 2, 19], kwargs={'bar': 12.75, 'baz': 'spam'})
 
+Features
+--------
+
+The class **FuncInput** combines the features of list and dict:
+
+- Properties:
+
+  * ``args``: represents positional arguments in the shape of a list
+  * ``kwargs``: represents the keyword-arguments as a dict (the keys must be limited to the type **str**)
+
+- Methods:
+
+  * ``append``: Appends to ``args``
+  * ``clear_all``: Combines ``clear_args`` and ``clear_kwargs``
+  * ``clear_args``: Clears ``args``
+  * ``clear_kwargs``: Clears ``kwargs``
+  * ``copy``: Makes a copy
+  * ``count``: Counts in ``args``
+  * ``exec``: Executes a function and returns the result
+  * ``extend``: Extends ``args``
+  * ``get``: Gets value from ``kwargs``
+  * ``index``: Gets index from ``args``
+  * ``insert``: Inserts into ``args``
+  * ``items``: Returns ``kwargs.items()`` converted to a list
+  * ``keys``: Returns ``kwargs.keys()`` converted to a list
+  * ``pop``: Pops value in ``kwargs`` if the key is of the type **str**, otherwise ``args``
+  * ``popitem``: Pops item in ``kwargs``
+  * ``remove``: Removes from ``args``
+  * ``reverse``: Reverses ``args``
+  * ``setdefault``: Sets default for ``kwargs``
+  * ``sort``: Sorts ``args``
+  * ``update``: Updates ``kwargs``
+  * ``values``: Returns ``kwargs.values()`` converted to a list
+
+- Other Features:
+
+  * *addition*: Creates a **FuncInput** object from two other objects. The property ``args`` and the property ``kwargs`` are each joined together
+  * *indexing*: If the key is of the type **str** then ``kwargs`` is altered in the normal way, otherwise ``args``
+
 License
 -------
 
