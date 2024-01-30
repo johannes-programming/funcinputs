@@ -40,7 +40,7 @@ The class **FuncInput** combines the features of list and dict:
 - Properties:
 
   * ``args``: represents positional arguments in the shape of a list
-  * ``kwargs``: represents the keyword-arguments as a dict (the keys must be limited to the type **str**)
+  * ``kwargs``: represents the keyword-arguments as a dict (the keys are limited to the type **str**)
 
 - Methods:
 
