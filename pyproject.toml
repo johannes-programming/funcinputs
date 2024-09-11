@@ -1,29 +1,32 @@
 [build-system]
+build-backend = "setuptools.build_meta"
 requires = [
     "setuptools>=61.0.0",
 ]
-build-backend = "setuptools.build_meta"
 
 [project]
-name = "funcinputs"
-version = "1.1.0"
-description = "inputs for functions"
-readme = "README.rst"
 authors = [
-    { name = "Johannes", email = "johannes-programming@posteo.org" },
+    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+    { email = "johannes-programming@posteo.org", name = "Johannes" },
 ]
 classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
 ]
-keywords = []
 dependencies = []
+description = "inputs for functions"
+keywords = []
+name = "funcinputs"
+readme = "README.rst"
 requires-python = ">=3.11"
+version = "1.1.1"
 
 [project.license]
 file = "LICENSE.txt"
 
 [project.urls]
-Source = "https://github.com/johannes-programming/funcinputs"
+Documentation = "https://pypi.org/project/funcinputs"
 Download = "https://pypi.org/project/funcinputs/#files"
+Source = "https://github.com/johannes-programming/funcinputs"

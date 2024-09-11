@@ -24,7 +24,7 @@ Once funcinputs is installed, you can use it as follows:
 .. code-block:: python
 
     from funcinputs import FuncInput
-    
+
     x = FuncInput(args=[9, "foo"], kwargs={"bar":12.75})
     print(x) # FuncInput(args=[9, 'foo'], kwargs={'bar': 12.75})
     x += FuncInput(args=[2], kwargs={"baz":"spam"})
@@ -89,4 +89,3 @@ Credits
 - Email: johannes-programming@posteo.org
 
 Thank you for using funcinputs!
-
